@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+<title>Vaction Website</title>
+</head>
+<body>
+
+<img src = "vacation.png" width = 350 height = 300 />
+
+<h1><strong>Tell us about your stay!</strong></h1>
+
+<!--Black is default color for line-->
+<hr/>
+
+<form>
+<table>
+
+<!--First line-->
+<tr>
+<td><label for="username">Your name:</label></td>
+<td>
+<input type="text" id="username" name="username" placeholder = "first and second name">
+</td>
+</tr>
+
+<!--Second line-->
+<tr>
+<td>
+<label for="checking">Check-in-date</label>
+</td>
+<td>
+<input id="checking" type="date" placeholder="3/21/2022">
+</td>
+</tr>
+
+<!--Third Line-->
+<tr>
+<td>
+<label for="numbers">Number of nights</label>
+</td>
+<td>
+<input id="numbers" type="number" placeholder ="1">
+</td>
+</tr>
+<tr>
+    <td><label for="email">Email address</label></td>
+
+    <td>
+        <input type="email" id="email" name="email" required>
+    </td>
+</tr>
+<tr>
+    <td><label for="feedback">Feedback</label></td>
+    <td>
+        <input type="text" id="feedback" name="feedback" value="Did you enjoy your stay with us?" size="35" required>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" style="text-align: center;">
+        <input type="submit" value="Submit your feedback!" name="submitButton">
+    </td>
+</tr>
+
+
+</table>
+</form>
+
+
+
+
+</body>
+</html>
